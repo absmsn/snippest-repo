@@ -28,6 +28,10 @@
   color: #61dafb;
 }
 
+:root {
+  --shadow-color: #cfcfcf;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

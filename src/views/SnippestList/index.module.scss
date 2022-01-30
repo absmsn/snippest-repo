@@ -1,0 +1,16 @@
+.mainContainer {
+    .operationPanel {
+        padding: 8px;
+        box-shadow: 0 0 10px var(--shadow-color);
+        overflow: hidden;
+        width: 100%;
+    }
+    .list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-column-gap: 16px;
+        grid-auto-rows: 80px;
+        grid-row-gap: 16px;
+        padding: 10px;
+    }
+}

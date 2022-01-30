@@ -1,0 +1,16 @@
+.mainContainer {
+    box-shadow: 0 0 10px var(--shadow-color);
+    border-radius: 8px;
+    // cursor: pointer;
+    .header {
+        .title {
+            position: relative;
+            .editIcon {
+                position: absolute;
+                top: 8px;
+                right: 8px;
+                opacity: 0.75;
+            }
+        }
+    }
+}
